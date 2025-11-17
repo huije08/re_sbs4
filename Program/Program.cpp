@@ -2,25 +2,37 @@
 
 using namespace std;
 
-int main()
+int sieve(int n)
 {
-#pragma region 유클리드 호제법
-	// 2개의 자연수 또는 정식의 최대 공약수를 구하시는 방식으로
-	
-	int x=24;
-	int y=36;
-	
-	int result = 0;
-
-	for (int i = 1; i <= x && i <= y; i++)
+	for (int i = 0; i < n; i++)
 	{
-		if (x % i == 0&& y % i == 0)
-		{
-			result = i;
-		}
 
 	}
+}
 
+int main()
+{
+#pragma region 에라토스테네스의 체
+
+	int x = 17;
+
+	for (int i = 2; i < x; i++)
+	{
+		bool flag = true;
+		for (int j = 0; j < i; j++)
+		{
+			if (i % j == 0) {
+				flag = false;
+
+				break;
+			}
+		}
+
+		if (flag)
+		{
+			cout << i << " ";
+		}
+	}
 	
 #pragma endregion
 
