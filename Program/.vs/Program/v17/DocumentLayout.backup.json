@@ -3,11 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3CDE1AD1-AD57-4F3F-95AA-DE66B03278D1}|..\\Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB981583-7F5B-4741-B660-12222059310B}|Program.vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AB981583-7F5B-4741-B660-12222059310B}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93726BF7-BD0C-4833-9DB7-B9475FC5DB0B}|..\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{93726BF7-BD0C-4833-9DB7-B9475FC5DB0B}|..\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class9th (Divide and Conqure)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8F818C-AF32-409A-BCB7-E2F657E4C4E7}|..\\Class10th (Binary Search)\\Class10th (Binary Search).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class10th (Binary Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB981583-7F5B-4741-B660-12222059310B}|Program.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.44.35207\\INCLUDE\\__MSVC_OSTREAM.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -38,36 +44,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class9th (Divide and Conqure).cpp",
-              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).cpp",
-              "RelativeDocumentMoniker": "..\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).cpp",
-              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).cpp",
-              "RelativeToolTip": "..\\Class9th (Divide and Conqure)\\Class9th (Divide and Conqure).cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Class11th (Quick Sort).cpp",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "RelativeDocumentMoniker": "..\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "RelativeToolTip": "..\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-19T09:46:14.615Z",
+              "WhenOpened": "2025-11-20T10:42:44.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "__msvc_ostream.hpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
-              "ViewState": "AgIAAOUDAAAAAAAAAAAvwPIDAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-17T09:03:48.812Z"
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class10th (Binary Search)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class10th (Binary Search)\\Source.cpp",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class10th (Binary Search)\\Source.cpp",
+              "RelativeToolTip": "..\\Class10th (Binary Search)\\Source.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-20T09:10:47.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class4th(Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th(Select Sort)\\Source.cpp",
@@ -79,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class3th (Bubble Sort)\\source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\source.cpp",
@@ -91,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Source.cpp",
@@ -103,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Class1th(Asymptotic Notation).cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Class1th(Asymptotic Notation)\\Class1th(Asymptotic Notation).cpp",
               "RelativeDocumentMoniker": "..\\..\\Class1th(Asymptotic Notation)\\Class1th(Asymptotic Notation).cpp",
@@ -115,20 +122,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-14T07:09:36.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class9th (Divide and Conqure)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class9th (Divide and Conqure)\\Source.cpp",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class9th (Divide and Conqure)\\Source.cpp",
+              "RelativeToolTip": "..\\Class9th (Divide and Conqure)\\Source.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T09:46:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "__msvc_ostream.hpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_ostream.hpp",
+              "ViewState": "AgIAAOUDAAAAAAAAAAAvwPIDAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-17T09:03:48.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Class6th (Euclidian).cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class6th (Euclidian)\\Class6th (Euclidian).cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Euclidian)\\Class6th (Euclidian).cpp",
@@ -140,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Class6th (Insert Sort).cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs4\\Class6th (Insert Sort)\\Class6th (Insert Sort).cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Insert Sort)\\Class6th (Insert Sort).cpp",
