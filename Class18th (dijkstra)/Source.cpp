@@ -1,0 +1,127 @@
+﻿#include <iostream>
+#include <vector>
+#define INFINITY 10000000
+using namespace std;
+
+class Dijkstra
+{
+private:
+	vector<int> distance;
+	vector<bool> visited;
+	vector<vector<int>> graph;
+public:
+	void resize(int node)
+	{
+		int newSize = node + 1;
+
+		if (graph.size() < newSize)
+		{
+			int previousSize = graph.size();
+
+			graph.resize(newSize);
+
+			for (int i = 0; i < newSize; i++)
+			{
+				graph[i].resize(newSize, INFINITY);
+			}
+
+			for (int i = previousSize; i < newSize; i++)
+			{
+				graph[i][i] = 0;
+			}
+
+		}
+
+		if (visited.size() < newSize)
+		{
+			visited.resize(newSize, false);
+			distance.resize(newSize, INFINITY);
+		}
+
+	}
+	void insert(int i, int j, int weight)
+	{
+		resize(max(i, j));
+		graph[i][j] = weight;
+		graph[j][i] = weight;
+	}
+	void update(int start)
+	{
+		for (int i = 0; i < graph.size(); i++)
+		{
+			distance[i] = graph[start][i];
+		}
+
+		visited[start] = true;
+
+		for (int i = 0; i < graph.size() - 1; i++)
+		{
+			int minNode = find();
+
+			visited[minNode] = true;
+
+			for (int j = 0; j < graph.size(); j++)
+			{
+				if (visited[j] == false && distance[minNode] + graph[minNode][j] < distance[j])
+				{
+					distance[j] = distance[minNode] + graph[minNode][j];
+				}
+			}
+		}
+
+		for (int i = 0; i < graph.size(); i++)
+		{
+			cout << distance[i] << " ";
+		}
+	}
+
+	const int& find()
+	{
+		int index = 0;
+		int min = INFINITY;
+		for (int i = 0; i < distance.size(); i++)
+		{
+			if (distance[i] < min && visited[i] == false)
+			{
+				min = distance[i];
+				index = i;
+			}
+		}
+		return index;
+	}
+
+
+};
+
+int main()
+{
+#pragma region 
+	// 2. 시작점을 방문처리 합니다.
+	// 3. 거리 배열에서 최소 비용 노드를 찾고 방문처리 합니다
+	// 4. 최소비용 노드를 거쳐갈 지 고민해서 거리배열을 갱신합니다.
+	//	  단, 이미 방문한 노드는 제외합니다.
+	// 5. 모든 노드를 방문할 꺠싸지 3 4번을 반복
+	// 방문하지 않은 노드 중에서 가장 작은 거리를 가진 노드를  
+	// 방문하고 그 노드와 연결된 다음 노드까지의 거리를 계산 합니다.
+	Dijkstra dijkstra;
+
+	dijkstra.insert(1, 2, 2);
+	dijkstra.insert(1, 3, 5);
+	dijkstra.insert(1, 4, 1);
+
+	dijkstra.insert(2, 3, 3);
+	dijkstra.insert(2, 4, 2);
+
+	dijkstra.insert(3, 4, 3);
+	dijkstra.insert(3, 5, 1);
+	dijkstra.insert(3, 6, 5);
+
+	dijkstra.insert(4, 5, 1);
+
+	dijkstra.insert(5, 6, 2);
+	dijkstra.update(1);
+#pragma endregion
+
+
+	return 0;
+}
