@@ -1,8 +1,2 @@
 ﻿  Program.cpp
-C:\Users\huije\OneDrive\바탕 화면\re_sbs4\Program\Program.cpp(3,9): warning C4005: 'INFINITY': macro redefinition
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_math.h(94,9):
-      see previous definition of 'INFINITY'
-  
-C:\Users\huije\OneDrive\바탕 화면\re_sbs4\Program\Program.cpp(19,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\huije\OneDrive\바탕 화면\re_sbs4\Program\Program.cpp(92,1): warning C4172: returning address of local variable or temporary : index
   Program.vcxproj -> C:\Users\huije\OneDrive\바탕 화면\re_sbs4\Program\x64\Debug\Program.exe
